@@ -7,12 +7,12 @@ public class Exercise5 {
 	public static void main(String args[])
 		{
 			String allFibs="";
-			int fib,lastFib=1,secondLastFib=1;
+			int fib,lastFib=1,secondLastFib=1; //test
 		
 		
 			for(int i=0;i<=100000;i++)
 				{
-				   fib = lastFib + secondLastFib;
+				   fib = lastFib + secondLastFib; //test
 				   secondLastFib = lastFib;
 				   lastFib = fib;
 				   
